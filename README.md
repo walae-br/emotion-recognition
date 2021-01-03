@@ -1,5 +1,6 @@
 # emotion-recognition
 
+<<<<<<< HEAD
 # Breast cancer classification with Keras and Deep Learning
 
 ## [Facial Expression Recognition](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
@@ -110,3 +111,7 @@ Results:
 acc: 0.68
 ```
 ![Accuracy/Loss Plot](https://github.com/walae-br/emotion-recognition/blob/main/output/vggnet_emotion.png?raw=true)
+=======
+![Accuracy/Loss Plot](https://github.com/walae-br/emotion-recognition/blob/main/output/vggnet_emotion.png?raw=true)
+
+>>>>>>> a3b302c00931008e3ff70cb218104f807e39055b
