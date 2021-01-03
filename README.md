@@ -97,7 +97,7 @@ python train_recognizer.py --checkpoints checkpoints/epoch_120.hdf5 --start-epoc
 
 Test the model
 ```
-python test_recognizer
+python test_recognizer.py
 ```
 
 Results:
