@@ -1,7 +1,5 @@
 # emotion-recognition
 
-<<<<<<< HEAD
-# Breast cancer classification with Keras and Deep Learning
 
 ## [Facial Expression Recognition](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 The data consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. The task is to categorize each face based on the emotion shown in the facial expression in to one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
@@ -111,7 +109,3 @@ Results:
 acc: 0.68
 ```
 ![Accuracy/Loss Plot](https://github.com/walae-br/emotion-recognition/blob/main/output/vggnet_emotion.png?raw=true)
-=======
-![Accuracy/Loss Plot](https://github.com/walae-br/emotion-recognition/blob/main/output/vggnet_emotion.png?raw=true)
-
->>>>>>> a3b302c00931008e3ff70cb218104f807e39055b
