@@ -60,7 +60,7 @@ git clone git@github.com:walae-br/emotion-recognition.git
 
 Download the dataset [FER2013 dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
-create a dataset folder, orig and idc
+create a dataset folders
 ```
 mkdir datasets
 mkdir datasets/fer2013
