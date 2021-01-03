@@ -58,7 +58,7 @@ Clone the repository:
 git clone git@github.com:walae-br/emotion-recognition.git
 ```
 
-Download the dataset [The breast cancer histology image dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+Download the dataset [FER2013 dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 create a dataset folder, orig and idc
 ```
