@@ -78,7 +78,7 @@ Go ahead and create the training, testing, and validation split directory struct
 python build_dataset.py
 ```
 
-Go ahead and train emovggnet on our fer2013 dataset for 60 epochs and lr 1e-3
+Go ahead and train emovggnet on our fer2013 dataset for 100 epochs and lr 1e-3
 
 ```
 python train_recognizer.py --checkpoints checkpoints
@@ -86,14 +86,12 @@ python train_recognizer.py --checkpoints checkpoints
 
 Train for another 20 epochs with lr 1e-4
 ```
-python train_recognizer.py --checkpoints checkpoints/epoch_60.hdf5 --start-epoch 61
+python train_recognizer.py --checkpoints checkpoints/epoch_100.hdf5 --start-epoch 101
 ```
 
 train the model for another 20 epochs with lr 1e-5
-
-Train for another 20 epochs with lr 1e-4
 ```
-python train_recognizer.py --checkpoints checkpoints/epoch_80.hdf5 --start-epoch 81
+python train_recognizer.py --checkpoints checkpoints/epoch_120.hdf5 --start-epoch 121
 ```
 
 
