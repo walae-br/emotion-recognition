@@ -8,7 +8,7 @@ import argparse
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-m", "--model", type=str,
+ap.add_argument("-m", "--model", type=str, required=True, 
         help="path to model checkpoint to load")
 args = vars(ap.parse_args())
 
@@ -30,7 +30,6 @@ model = load_model(args["model"])
         steps=testGen.numImages // config.BATCH_SIZE,
         max_queue_size=config.BATCH_SIZE * 2)
 print("[INFO] accuracy: {:.2f}".format(acc * 100))
-
 
 # close the testing database
 testGen.close()

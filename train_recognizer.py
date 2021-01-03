@@ -44,7 +44,7 @@ if args["model"] is None:
     print("[INFO] compiling model...")
     model = EmotionVGGNet.build(width=48, height=48, depth=1,
             classes=config.NUM_CLASSES)
-    opt = Adam(lr=1e-5)
+    opt = Adam(lr=1e-4)
     model.compile(loss="categorical_crossentropy", optimizer=opt,
             metrics=["accuracy"])
 
@@ -71,7 +71,7 @@ callbacks = [
             startAt=args["start_epoch"])]
 
 # train the network
-model.fit_generator(
+model.fit(
         trainGen.generator(),
         steps_per_epoch=trainGen.numImages // config.BATCH_SIZE,
         validation_data=valGen.generator(),

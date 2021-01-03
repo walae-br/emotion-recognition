@@ -135,5 +135,3 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# Datasets
-MNIST*
